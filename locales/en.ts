@@ -1,0 +1,255 @@
+
+export const en = {
+  nav: { home: 'Home', about: 'About', experience: 'Experience', skills: 'Skills', certs: 'Certs', works: 'Works', contact: 'Contact' },
+  hero: {
+    greeting: "SYSTEM ONLINE // WELCOME",
+    role: 'Senior Front-End Engineer',
+    subtitle: 'A creator passionate about frontend applications. Expert in developing React(~19) & Angular(JS~19) multi-platform SaaS systems, such as: Cathay Online Banking, Robo Invest, ESG Carbon Asset Management, Enterprise EIP, Mail Systems, Long-term Care, and SCM (DMS/EPM/MES/WMS).',
+    cta: 'ACCESS PROJECTS',
+    scroll: 'SCROLL TO INITIATE',
+    cards: {
+      arch: { title: 'Architecture', sub: 'React / Next / Angular' },
+      perf: { title: 'Performance', sub: 'Core Vitals / SEO' },
+      style: { title: 'Styling', sub: 'Tailwind / CSS / UI' },
+      webgl: { title: 'WebGL / 3D', sub: 'Three.js / R3F' },
+      mobile: { title: 'Mobile Dev', sub: 'RWD / PWA / Hybrid' },
+      ai: { title: 'AI Engineering', sub: 'RAG / GenAI Integration' }
+    }
+  },
+  about: {
+    title: 'About',
+    card_title: 'BIOMETRICS',
+    class: 'CLASS: DEVELOPER',
+    exp: 'EXP: 6+ YEARS',
+    base: 'BASE: TAIPEI',
+    edu: 'M.S. Business Info App, NKUST, Taiwan',
+    text: "I'm Chanry, a frontend engineer passionate about SaaS applications. My workaholic nature makes me rigorous, responsible, and a fast learner. With a CS background from high school to master's, I have a solid foundation to independently build high-scale products. I bridge the gap between stakeholders and execution, handling everything from requirements and UI/UX prototyping to frontend dev and backend integration. Proficient in React(~19), Angular(JS~19), jQuery, Next.js, Qwik, and more.",
+    stats: {
+      exp_label: 'Years Experience',
+      proj_label: 'Projects Shipped'
+    }
+  },
+  experience: { 
+    title: 'Experience',
+    items: {
+      cub_lead: {
+        role: 'Frontend Team Lead',
+        company: 'Cathay United Bank DDT Center (Mybank)',
+        period: '2024/06 - PRESENT',
+        desc: ''
+      },
+      cub_robo: {
+        role: 'Frontend Software Engineer',
+        company: 'Cathay United Bank DDT Center (ROBO)',
+        period: '2023/05 - 2024/06',
+        desc: ''
+      },
+      teco: {
+        role: 'Frontend Software Engineer',
+        company: 'TECO - ITTS R&D Center',
+        period: '2021/04 - 2023/05',
+        desc: ''
+      },
+      military: {
+        role: 'Discharged',
+        company: 'Huangpu Military Academy South Training Center',
+        period: '2021/01',
+        desc: ''
+      },
+      master: {
+        role: 'Master Degree',
+        company: 'NKUST - Commerce Info Application',
+        period: '2020/07',
+        desc: ''
+      },
+      mirdc: {
+        role: 'Intern Network Administrator',
+        company: 'MIRDC Industry Research Group',
+        period: '2017/07 - 2019/09',
+        desc: ''
+      },
+      bachelor: {
+        role: 'Bachelor Degree',
+        company: 'NKUST - Dept. of Information Management',
+        period: '2018/06',
+        desc: ''
+      },
+      digi: {
+        role: 'Trainee',
+        company: 'MOEA DIGI+ Talent Program',
+        period: '2017/06 - 2018/01',
+        desc: ''
+      },
+      yaja: {
+        role: 'Intern System Analyst',
+        company: 'Yaja Tech Co., Ltd.',
+        period: '2017/07 - 2018/01',
+        desc: ''
+      },
+      cio: {
+        role: 'Student Association CIO',
+        company: 'University Student Association',
+        period: '2017/03 - 2018/12',
+        desc: ''
+      },
+      highschool: {
+        role: 'Graduated',
+        company: 'The Affiliated Senior High School of NCNU',
+        period: '2016/06',
+        desc: ''
+      }
+    }
+  },
+  skills: { 
+    title: 'Skills',
+    sys_info: 'TECHNICAL_SPECS',
+    cat_frontend: 'Front-end (Specialist)',
+    cat_design: 'Design & Others',
+    cat_backend: 'Back-end',
+    items: {
+      frameworks: {
+        name: 'Frameworks: React/Angular',
+        desc: '➜ Expert in MVVM, Two-way binding, DI, SoC.\n➜ Deep experience with Angular evolution (JS 1.0 to v19).\n➜ Creating reusable component libraries for rapid development.\n➜ Advanced concepts: Standalone, Lazy loading, Signals, RxJS, NgRx.\n➜ Cross-platform: NativeScript (Desktop), Ionic (Mobile).\n➜ Testing: Karma Unit Testing for system stability.\n➜ i18n: Multi-language (translate/transloco), Time Zone (UTC).\n➜ Auth: Guards, Resolvers, JWT, SSO.'
+      },
+      html: {
+        name: 'HTML5',
+        desc: '➜ Solid foundation + Semantic tags, Advanced Forms, New Selectors.'
+      },
+      css: {
+        name: 'CSS3 / SCSS',
+        desc: '➜ Sass/SCSS Preprocessor: Variables, Functions, Nesting, Mixins, Extends for maintainability.\n➜ Styling Architectures: OOCSS, SMACSS, BEM.\n➜ Implementation of Theme Switching & UI Scaling.'
+      },
+      js_ts: {
+        name: 'JS ES6+ / TypeScript',
+        desc: '➜ Core: Objects, Events, Listeners, Ajax, Static Typing, Generics.\n➜ Modern: Destructuring, Symbols, Maps/Sets, Promises, Spread syntax, Arrow functions.'
+      },
+      rwd: {
+        name: 'Responsive / RWD',
+        desc: '➜ Implementation of spec-compliant RWD projects.\n➜ Familiar with breakpoints & Grid systems (Bootstrap, Pure, Layui, Custom).'
+      },
+      storage: {
+        name: 'Frontend Storage',
+        desc: '➜ Beyond Local/Session Storage: IndexDB, WebSQL mastery.'
+      },
+      security: {
+        name: 'Frontend Security',
+        desc: '➜ Bank-grade system development experience.\n➜ Knowledge of Vuln Scanning, CSRF, XSS prevention.'
+      },
+      dom: {
+        name: 'DOM / jQuery',
+        desc: '➜ Maintaining legacy jQuery projects.\n➜ Expert in Native JS DOM manipulation.'
+      },
+      ui_ux: {
+        name: 'UI/UX Design',
+        desc: '➜ Tools: Adobe XD > Figma > Sketch > MockingBot.\n➜ Creating Guidelines & UI Flows based on stakeholder requirements.'
+      },
+      code_style: {
+        name: 'Code Standardization',
+        desc: '➜ ESLint implementation.\n➜ Adhering to Airbnb or Company guidelines.'
+      },
+      git: {
+        name: 'Version Control',
+        desc: '➜ Git, TFVC, git-tf, GitLab, GitHub.\n➜ Sourcetree & CLI mastery.'
+      },
+      data_viz: {
+        name: 'Data Visualization',
+        desc: '➜ B2B Dashboards.\n➜ D3.js, Chart.js, amChart.'
+      },
+      three_d: {
+        name: '3D Applications',
+        desc: '➜ Real-estate 3D viewing, WMS Smart Warehousing.\n➜ WebGL, Three.js, Digital Twin interest.'
+      },
+      wordpress: {
+        name: 'WordPress Dev',
+        desc: '➜ Full stack setup, SEO, SSL, Plugins, Server config.'
+      },
+      other_tech: {
+        name: 'Other Integrations',
+        desc: '➜ AI Face Login, SSO, Internal Tabs, LINE/WeChat Notify.\n➜ Payment Gateways (ECPay), WebRTC Streaming, WebSocket Dashboards.\n➜ Label Printing (Report/QR).'
+      },
+      tools: {
+        name: 'Tools & Learning',
+        desc: '➜ Mac/IDE: VS Code, Sublime, Visual Studio.\n➜ MS Office Suite.\n➜ Self-learning: Pinterest, Dribbble, ChatGPT, LeetCode.'
+      },
+      node: {
+        name: 'Node.js API',
+        desc: '➜ Building Backend APIs for frontend consumption or mock servers.'
+      },
+      auto_test: {
+        name: 'Auto Testing',
+        desc: '➜ Python + Selenium/Katalon for frontend verification.'
+      },
+      python: {
+        name: 'Python / Crawler',
+        desc: '➜ Web Crawlers & RPA.\n➜ Optimized workflow efficiency by 91.7%.'
+      },
+      php: {
+        name: 'PHP / DB',
+        desc: '➜ Membership systems, Shopping Carts, CRUD websites.'
+      },
+      sql: {
+        name: 'SQL / Databases',
+        desc: '➜ MySQL, MongoDB, Firebase.'
+      },
+      data_mining: {
+        name: 'Data Mining / ML',
+        desc: '➜ Kaggle competition experience.\n➜ Basic Machine Learning knowledge.'
+      },
+      other_backend: {
+        name: 'Other Languages',
+        desc: '➜ Java, C++, VB experience.'
+      }
+    },
+    certs: {
+      title: 'CERTIFICATIONS',
+      digi: 'DIGI+ Talent Program (ECOM) - Industrial Bureau',
+      mobile: 'Mobile App Developer (Junior)',
+      soft_app_b: 'Computer Software Application (Level B)',
+      ecom: 'E-Commerce Program Certificate',
+      erp: 'ERP Distribution Module (DingXin)',
+      assist: 'E-Business Assistant Planner',
+      tqc_oop: 'TQC OOP Language',
+      tqc_ecom: 'TQC E-Commerce Intro (Pro)',
+      tqc_pm: 'TQC Project Management (Pro)',
+      tqc_proj: 'TQC Project 2007 (Advanced)',
+      biz_mgmt: 'Business Management Basics',
+      stats: 'Samsung Statistics & Research Analyst',
+      mos: 'Microsoft Office Specialist (MOS)',
+      english: 'Commercial English (Level 4)',
+      lttc: 'LTTC GEPT (Elementary)',
+      accounting: 'Accounting Info (Level C)',
+      soft_app_c: 'Computer Software Application (Level C)',
+      soft_design: 'Software Design (Level C)',
+      web_design: 'Web Design (Level C)',
+      typing_cn: 'TQC Chinese Typing (Advanced)',
+      typing_en: 'TQC English Typing (Practical)'
+    }
+  },
+  works: { 
+    title: 'Works',
+    disclaimer: 'Due to non-disclosure agreements, only selected public or practice projects are displayed.',
+    render_ok: 'RENDER_OK'
+  },
+  contact: {
+    title: 'Contact',
+    heading: 'START A NEW MISSION',
+    link_est: 'LINK_ESTABLISHED',
+    text: 'Ready to initiate a collaboration? Transmit your data packet below.',
+    send: 'SEND TRANSMISSION',
+    secure: 'SECURE_CHANNEL_ENCRYPTED // SHA-256',
+    no_logs: 'NO_LOGS_KEPT'
+  },
+  footer: {
+    rights: 'Designed & Engineered by Chanry',
+    links: {
+      github: 'GITHUB_REPO',
+      linkedin: 'LINKEDIN_PROFILE',
+      source: 'SOURCE_CODE'
+    }
+  },
+  sys: {
+    status: 'SYS_STATUS: OPTIMAL',
+    loc: 'LOC: 25.0330° N, 121.5654° E',
+    fps: 'FRAME_RATE: 60FPS'
+  }
+};
