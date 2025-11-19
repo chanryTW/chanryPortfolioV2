@@ -205,51 +205,48 @@ export const CERTIFICATIONS: Certification[] = [
 
 export const PROJECTS: Project[] = [
   {
-    id: 'p1',
-    title: '17LIVE Event Dashboard',
-    description: 'A high-traffic campaign dashboard handling millions of requests. Features real-time leaderboards, interactive voting systems, and complex animation rewards.',
-    tags: ['React', 'Next.js', 'TypeScript', 'WebSocket'],
-    imageUrl: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=1000&auto=format&fit=crop',
-    link: 'https://17.live/'
+    id: 'cathay_mybank',
+    size: 'md',
+    title: 'Cathay Mybank 國泰世華網路銀行',
+    description: '',
+    tags: ['React', 'TypeScript', 'Chakra UI', 'Jotai'],
+    imageUrl: '/image/works/cathay_mybank.png',
+    link: 'https://www.cathaybk.com.tw/MyBank'
   },
   {
-    id: 'p2',
-    title: 'Fandora Shop Creator',
-    description: 'An e-commerce platform empowering creators to sell merchandise. Built a WYSIWYG product editor allowing users to place designs on 3D mockups.',
-    tags: ['Vue.js', 'Canvas API', 'Fabric.js', 'SCSS'],
-    imageUrl: 'https://images.unsplash.com/photo-1556742049-0cfed4f7a07d?q=80&w=1000&auto=format&fit=crop',
-    link: 'https://fandorashop.com/'
+    id: 'cathay_robo',
+    size: 'sm',
+    title: 'ROBO 智能投資',
+    description: '',
+    tags: ['Angular', 'TypeScript', 'Tailwind'],
+    imageUrl: '/image/works/cathay_robo.png',
+    link: 'https://www.cathayrobo.com/'
   },
   {
-    id: 'p3',
-    title: 'Oh My Gosh',
-    description: 'A visually stunning campaign website with parallax scrolling and interactive SVG animations. Award-winning design implementation.',
-    tags: ['GSAP', 'ScrollMagic', 'JavaScript', 'HTML5'],
-    imageUrl: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1000&auto=format&fit=crop',
-    link: '#'
+    id: 'itts',
+    size: 'md',
+    title: '內部系統',
+    description: 'ESG碳資產管理、EIP企業入口、郵件收發、長照、SCM供應鏈管理-DMS/EPM/MES/WMS等',
+    tags: ['Angular', 'TypeScript', 'jQuery', 'Bootstrap'],
+    imageUrl: '/image/works/itts.png',
+    link: ''
   },
   {
-    id: 'p4',
-    title: 'Chanry Personal v1',
-    description: 'My previous portfolio showcasing a timeline of my work with a unique horizontal scroll experience and custom cursor interactions.',
-    tags: ['Design System', 'Vue.js', 'Animation'],
-    imageUrl: 'https://images.unsplash.com/photo-1467232004568-c0517a3d0198?q=80&w=1000&auto=format&fit=crop',
-    link: 'https://chanrytw.github.io/'
+    id: 'lb',
+    size: 'sm',
+    title: '雜誌媒體網站',
+    description: '',
+    tags: ['WordPress', 'PHP', 'JavaScript', 'SCSS'],
+    imageUrl: '/image/works/lb.jpg',
+    link: ''
   },
   {
-    id: 'p5',
-    title: 'Ubestream Corp',
-    description: 'Corporate identity website. Implemented a responsive grid system and multilingual support (i18n).',
-    tags: ['RWD', 'i18n', 'jQuery', 'Bootstrap'],
-    imageUrl: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1000&auto=format&fit=crop',
-    link: '#'
+    id: 'movie_studio',
+    size: 'sm',
+    title: '影像工作室官網',
+    description: '',
+    tags: ['JavaScript', 'SCSS'],
+    imageUrl: '/image/works/movie_studio.jpg',
+    link: ''
   },
-  {
-    id: 'p6',
-    title: 'Jia-An Portfolio',
-    description: 'A minimalist portfolio for a graphic designer, focusing on large typography and whitespace to highlight visual works.',
-    tags: ['React', 'Framer Motion', 'Minimalism'],
-    imageUrl: 'https://images.unsplash.com/photo-1620641788427-3e19397806b9?q=80&w=1000&auto=format&fit=crop',
-    link: '#'
-  }
 ];

@@ -23,7 +23,7 @@ export const About: React.FC = () => {
                         <div className="absolute inset-0 clip-corner bg-cyan-500/20 animate-pulse" />
                         <div className="absolute -inset-1 border border-cyan-500/30 clip-corner" />
                         <img 
-                           src="https://chanrytw.github.io/img/DSC02781_LR.jpg" 
+                           src="/image/me2.png" 
                            alt="Chanry" 
                            className="w-full h-full object-cover clip-corner transition-all duration-500 relative z-10" 
                         />

@@ -1,5 +1,6 @@
 export interface Project {
   id: string;
+  size: 'sm' | 'md' | 'lg';
   title: string;
   description: string;
   tags: string[];

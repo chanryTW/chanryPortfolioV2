@@ -21,7 +21,7 @@ export const Works: React.FC = () => {
          
          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
            {PROJECTS.map((project, idx) => (
-             <RevealOnScroll key={project.id} delay={idx * 0.1} className={idx === 0 || idx === 3 ? 'lg:col-span-2' : ''}>
+             <RevealOnScroll key={project.id} delay={idx * 0.1} className={project.size === 'md' ? 'lg:col-span-2' : ''}>
                <div className="group relative h-full">
                  <GlassCard noPadding className="h-[400px] overflow-hidden group-hover:border-cyan-500/60 transition-all duration-500 bg-[#05050a]">
                     {/* Image Container */}
@@ -52,14 +52,14 @@ export const Works: React.FC = () => {
                               </p>
                            </div>
                            
-                           <a 
+                           {project.link && <a 
                              href={project.link} 
                              target="_blank"
                              rel="noreferrer"
                              className="w-14 h-14 bg-white/5 border border-white/20 flex items-center justify-center hover:bg-cyan-500 hover:text-black hover:border-cyan-500 transition-all rounded-full group/btn"
                            >
                              <ArrowUpRight size={28} className="group-hover/btn:rotate-45 transition-transform" />
-                           </a>
+                           </a>}
                         </div>
                     </div>
                  </GlassCard>
