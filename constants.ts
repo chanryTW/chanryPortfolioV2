@@ -320,4 +320,13 @@ export const PROJECTS: Project[] = [
     imageUrl: "/image/works/movie_studio.jpg",
     link: "",
   },
+  {
+    id: "lb",
+    size: "sm",
+    title: "雜誌媒體網站",
+    description: "",
+    tags: ["獨立開發", "獨立設計", "WordPress", "PHP", "JavaScript"],
+    imageUrl: "/image/works/lb.jpg",
+    link: "",
+  },
 ];

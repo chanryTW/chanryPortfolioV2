@@ -27,7 +27,7 @@ export const Experience: React.FC = () => {
                     viewport={{ once: true, margin: "-50px" }}
                     transition={{ duration: 0.6, delay: i * 0.1, ease: "easeOut" }}
                     style={{ zIndex: i }}
-                    className={`relative flex flex-col md:flex-row items-center pointer-events-none ${i > 0 ? 'md:-mt-20' : ''} ${i % 2 === 0 ? 'md:flex-row-reverse' : ''}`}
+                    className={`relative flex flex-col md:flex-row items-center pointer-events-none mb-10 ${i > 0 ? 'md:-mt-20' : ''} ${i % 2 === 0 ? 'md:flex-row-reverse' : ''}`}
                   >
                      {/* Spacer for layout balance on desktop */}
                      <div className="hidden md:block flex-1" />
