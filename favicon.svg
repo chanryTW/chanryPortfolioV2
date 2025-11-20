@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Chanry favicon">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#00f0ff" />
+      <stop offset="1" stop-color="#bd00ff" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="12" fill="#030014" />
+  <circle cx="32" cy="24" r="14" fill="url(#g)" opacity="0.9" />
+  <text x="32" y="38" font-size="20" font-family="Space Grotesk, Inter, sans-serif" fill="#fff" text-anchor="middle" font-weight="700">C</text>
+</svg>
