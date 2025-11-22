@@ -1,5 +1,7 @@
 # chanryPortfolioV2
 
+![Demo](public/image/demo.png)
+
 Chanry 的個人網站，第二代版本（2025）
 
 ## 特色
